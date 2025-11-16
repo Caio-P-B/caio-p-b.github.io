@@ -1,0 +1,426 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description"
+        content="Portfólio profissional de desenvolvedor Full-Stack. Criando soluções digitais modernas e inovadoras.">
+    <title>Caio Bearari - Desenvolvedor Front-End</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700&family=JetBrains+Mono:wght@400;500&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <!-- Header -->
+    <header class="header" id="header">
+        <div class="container">
+            <div class="header-content">
+                <a href="#" class="logo">Caio Bearari <span class="dev-tag">Dev</span></a>
+                <nav class="nav" id="nav">
+                    <ul class="nav-list">
+                        <li><a href="#home" class="nav-link active">Home</a></li>
+                        <li><a href="#sobre" class="nav-link">Sobre</a></li>
+                        <li><a href="#habilidades" class="nav-link">Habilidades</a></li>
+                        <li><a href="#projetos" class="nav-link">Projetos</a></li>
+                        <li><a href="#contato" class="nav-link">Contato</a></li>
+                    </ul>
+                </nav>
+                <a href="#contato" class="btn btn-primary btn-header">Vamos Conversar</a>
+                <button class="menu-toggle" id="menuToggle" aria-label="Toggle menu">
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                </button>
+            </div>
+        </div>
+    </header>
+
+    <!-- Hero Section -->
+    <section class="hero" id="home">
+        <div class="container">
+            <div class="hero-content">
+                <div class="hero-text" data-aos="fade-right">
+                    <p class="hero-greeting">Olá, eu sou Caio Bearari</p>
+                    <h1 class="hero-title">Desenvolvedor Front-End & Criador de Soluções Digitais</h1>
+                    <p class="hero-description">Transformo ideias em experiências digitais excepcionais. Especializado
+                        em criar aplicações web modernas, responsivas e de alto desempenho.</p>
+                    <div class="hero-cta">
+                        <a href="#projetos" class="btn btn-primary">Ver Projetos</a>
+                        <a href="#" class="btn btn-secondary" id="downloadCV">Download CV</a>
+                    </div>
+                </div>
+                <div class="hero-image" data-aos="fade-left">
+                    <img src="https://images.unsplash.com/photo-1707528041466-83a325f01a3c?w=800&q=80"
+                        alt="Workspace de desenvolvedor">
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- About Section -->
+    <section class="about" id="sobre">
+        <div class="container">
+            <h2 class="section-title" data-aos="fade-up">Sobre Mim</h2>
+            <div class="about-content">
+                <div class="about-text" data-aos="fade-right">
+                    <p class="about-description">Desenvolvedor apaixonado por tecnologia com 2+ anos de experiência
+                        criando soluções inovadoras que impactam positivamente negócios e usuários. Minha missão é
+                        transformar desafios complexos em interfaces intuitivas e sistemas robustos.</p>
+                    <p class="about-description">Com expertise em tecnologias modernas de frontend, desenvolvo
+                        aplicações escaláveis e de alta performance, sempre focando na melhor experiência do usuário e
+                        nas melhores práticas de desenvolvimento.</p>
+
+                    <div class="stats">
+                        <div class="stat-item" data-aos="zoom-in" data-aos-delay="100">
+                            <h3 class="stat-number">2+</h3>
+                            <p class="stat-label">Anos de Experiência</p>
+                        </div>
+                        <div class="stat-item" data-aos="zoom-in" data-aos-delay="200">
+                            <h3 class="stat-number">20+</h3>
+                            <p class="stat-label">Projetos Concluídos</p>
+                        </div>
+                        <div class="stat-item" data-aos="zoom-in" data-aos-delay="300">
+                            <h3 class="stat-number">15+</h3>
+                            <p class="stat-label">Clientes Satisfeitos</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="about-skills" data-aos="fade-left">
+                    <div class="skill-bar">
+                        <div class="skill-info">
+                            <span class="skill-name">Frontend Development</span>
+                            <span class="skill-percentage">90%</span>
+                        </div>
+                        <div class="skill-progress">
+                            <div class="skill-progress-bar" data-progress="90"></div>
+                        </div>
+                    </div>
+                    <div class="skill-bar">
+                        <div class="skill-info">
+                            <span class="skill-name">UI/UX Design</span>
+                            <span class="skill-percentage">85%</span>
+                        </div>
+                        <div class="skill-progress">
+                            <div class="skill-progress-bar" data-progress="85"></div>
+                        </div>
+                    </div>
+                    <div class="skill-bar">
+                        <div class="skill-info">
+                            <span class="skill-name">Backend Development</span>
+                            <span class="skill-percentage">65%</span>
+                        </div>
+                        <div class="skill-progress">
+                            <div class="skill-progress-bar" data-progress="65"></div>
+                        </div>
+                    </div>
+                    <div class="skill-bar">
+                        <div class="skill-info">
+                            <span class="skill-name">Database & DevOps</span>
+                            <span class="skill-percentage">70%</span>
+                        </div>
+                        <div class="skill-progress">
+                            <div class="skill-progress-bar" data-progress="70"></div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Skills Section -->
+    <section class="skills" id="habilidades">
+        <div class="container">
+            <h2 class="section-title" data-aos="fade-up">Tecnologias & Ferramentas</h2>
+            <div class="skills-grid">
+                <div class="skill-category" data-aos="fade-up" data-aos-delay="100">
+                    <div class="category-icon">💻</div>
+                    <h3 class="category-title">Frontend</h3>
+                    <ul class="tech-list">
+                        <li>HTML5/CSS3</li>
+                        <li>JavaScript ES6</li>
+                        <li>React</li>
+                        <li>Next.js</li>
+                        <li>Vue.js</li>
+                        <li>TypeScript</li>
+                    </ul>
+                </div>
+                <div class="skill-category" data-aos="fade-up" data-aos-delay="200">
+                    <div class="category-icon">⚙️</div>
+                    <h3 class="category-title">Backend</h3>
+                    <ul class="tech-list">
+                        <li>Node.js</li>
+                        <li>Express</li>
+                        <li>Python</li>
+                        <li>REST APIs</li>
+                    </ul>
+                </div>
+                <div class="skill-category" data-aos="fade-up" data-aos-delay="300">
+                    <div class="category-icon">🛠️</div>
+                    <h3 class="category-title">Ferramentas</h3>
+                    <ul class="tech-list">
+                        <li>Git/GitHub</li>
+                        <li>Docker</li>
+                        <li>Figma</li>
+                        <li>VS Code</li>
+                    </ul>
+                </div>
+                <div class="skill-category" data-aos="fade-up" data-aos-delay="400">
+                    <div class="category-icon">📋</div>
+                    <h3 class="category-title">Metodologias</h3>
+                    <ul class="tech-list">
+                        <li>Agile</li>
+                        <li>Scrum</li>
+                        <li>Clean Code</li>
+                        <li>TDD</li>
+                        <li>CI/CD</li>
+                        <li>Git Flow</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Projects Section -->
+    <section class="projects" id="projetos">
+        <div class="container">
+            <h2 class="section-title" data-aos="fade-up">Meus Projetos em Destaque</h2>
+            <div class="projects-grid">
+                <div class="project-card" data-aos="fade-up" data-aos-delay="100">
+                    <div class="project-image">
+                        <img src="https://images.unsplash.com/photo-1658297063569-162817482fb6?w=800&q=80"
+                            alt="Projeto E-commerce">
+                        <div class="project-overlay">
+                            <a href="#" class="project-link" title="Ver projeto"><img src="images/linkIcon.svg"
+                                    alt="site" style="scale: .7;"></a>
+                            <a href="#" class="project-link" title="Ver código"><img src="images/githubIcon.svg"
+                                    alt="GitHub" style="scale: .8;"></a>
+                            <button class="project-link expand-btn" data-project="0" title="Ver detalhes"><img
+                                    src="images/plusIcon.svg" alt="detalhes" style="scale: .8;"></button>
+                        </div>
+                    </div>
+                    <div class="project-content">
+                        <div class="project-tags">
+                            <span class="tag">React</span>
+                            <span class="tag">Redux Toolkit</span>
+                            <span class="tag">Stripe API</span>
+                        </div>
+                        <h3 class="project-title">E-Commerce Minimalista com Carrinho Completo</h3>
+                        <p class="project-description">E-commerce real com fluxo completo: catálogo → carrinho →
+                            checkout.</p>
+                    </div>
+                </div>
+
+                <div class="project-card" data-aos="fade-up" data-aos-delay="200">
+                    <div class="project-image">
+                        <img src="https://images.unsplash.com/photo-1608222351212-18fe0ec7b13b?w=800&q=80"
+                            alt="Projeto Dashboard">
+                        <div class="project-overlay">
+                            <a href="#" class="project-link" title="Ver projeto"><img src="images/linkIcon.svg"
+                                    alt="site" style="scale: .7;"></a>
+                            <a href="#" class="project-link" title="Ver código"><img src="images/githubIcon.svg"
+                                    alt="GitHub" style="scale: .8;"></a>
+                            <button class="project-link expand-btn" data-project="1" title="Ver detalhes"><img
+                                    src="images/plusIcon.svg" alt="detalhes" style="scale: .8;"></button>
+                        </div>
+                    </div>
+                    <div class="project-content">
+                        <div class="project-tags">
+                            <span class="tag">React</span>
+                            <span class="tag">PWA</span>
+                            <span class="tag">IndexedDB</span>
+                            <span class="tag">Service Workers</span>
+                        </div>
+                        <h3 class="project-title">App de Anotações com Sincronização Offline</h3>
+                        <p class="project-description">Um bloco de notas moderno que funciona totalmente offline.</p>
+                    </div>
+                </div>
+
+                <div class="project-card" data-aos="fade-up" data-aos-delay="300">
+                    <div class="project-image">
+                        <img src="https://images.unsplash.com/photo-1710870509663-16f20f75d758?w=800&q=80"
+                            alt="Projeto Mobile App">
+                        <div class="project-overlay">
+                            <a href="#" class="project-link" title="Ver projeto"><img src="images/linkIcon.svg"
+                                    alt="site" style="scale: .7;"></a>
+                            <a href="#" class="project-link" title="Ver código"><img src="images/githubIcon.svg"
+                                    alt="GitHub" style="scale: .8;"></a>
+                            <button class="project-link expand-btn" data-project="2" title="Ver detalhes"><img
+                                    src="images/plusIcon.svg" alt="detalhes" style="scale: .8;"></button>
+                        </div>
+                    </div>
+                    <div class="project-content">
+                        <div class="project-tags">
+                            <span class="tag">React</span>
+                            <span class="tag">Framer Motion</span>
+                            <span class="tag">Weather API</span>
+                        </div>
+                        <h3 class="project-title">App Meteorológico Avançado com Animações</h3>
+                        <p class="project-description">Aplicativo com previsões e animações de clima super detalhadas.
+                        </p>
+                    </div>
+                </div>
+
+                <div class="project-card" data-aos="fade-up" data-aos-delay="100">
+                    <div class="project-image">
+                        <img src="https://images.unsplash.com/photo-1658297063569-162817482fb6?w=800&q=80"
+                            alt="Projeto E-commerce">
+                        <div class="project-overlay">
+                            <a href="#" class="project-link" title="Ver projeto"><img src="images/linkIcon.svg"
+                                    alt="site" style="scale: .7;"></a>
+                            <a href="#" class="project-link" title="Ver código"><img src="images/githubIcon.svg"
+                                    alt="GitHub" style="scale: .8;"></a>
+                            <button class="project-link expand-btn" data-project="3" title="Ver detalhes"><img
+                                    src="images/plusIcon.svg" alt="detalhes" style="scale: .8;"></button>
+                        </div>
+                    </div>
+                    <div class="project-content">
+                        <div class="project-tags">
+                            <span class="tag">React</span>
+                            <span class="tag">Next.js</span>
+                            <span class="tag">Prisma</span>
+                            <span class="tag">PostgreSQL</span>
+                        </div>
+                        <h3 class="project-title">Plataforma de Mini Cursos com Player de Vídeo</h3>
+                        <p class="project-description">Uma plataforma estilo Udemy simplificada.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section class="contact" id="contato">
+        <div class="container">
+            <h2 class="section-title" data-aos="fade-up">Vamos Trabalhar Juntos?</h2>
+            <div class="contact-content">
+
+                <!-- FORM INICIO -->
+
+                <div class="contact-form-wrapper" data-aos="fade-right">
+                    <form class="contact-form" id="contactForm">
+                        <div class="form-group">
+                            <label for="name">Nome</label>
+                            <input type="text" id="name" name="name" required>
+                            <span class="error-message"></span>
+                        </div>
+                        <div class="form-group">
+                            <label for="email">Email</label>
+                            <input type="email" id="email" name="email" required>
+                            <span class="error-message"></span>
+                        </div>
+                        <div class="form-group">
+                            <label for="subject">Assunto</label>
+                            <input type="text" id="subject" name="subject" required>
+                            <span class="error-message"></span>
+                        </div>
+                        <div class="form-group">
+                            <label for="message">Mensagem</label>
+                            <textarea id="message" name="message" rows="5" required></textarea>
+                            <span class="error-message"></span>
+                        </div>
+                        <button type="submit" class="btn btn-primary btn-submit">Enviar Mensagem</button>
+                    </form>
+                    <div class="form-success" id="formSuccess">
+                        <div class="success-icon">✓</div>
+                        <h3>Mensagem Enviada!</h3>
+                        <p>Obrigado pelo contato. Retornarei em breve!</p>
+                    </div>
+                </div>
+
+                <!-- FORM FIM -->
+
+                <div class="contact-info" data-aos="fade-left">
+                    <h3 class="contact-info-title">Informações de Contato</h3>
+                    <a href="#">
+                        <div class="contact-item">
+                            <div class="contact-icon">📧</div>
+                            <div>
+                                <h4>Email</h4>
+                                <p>Beararidesign@gmail.com</p>
+                            </div>
+                        </div>
+                    </a>
+                    <a href="https://www.linkedin.com/in/caio-paulino-bearari/">
+                        <div class="contact-item">
+                            <div class="contact-icon">💼</div>
+                            <div>
+                                <h4>LinkedIn</h4>
+                                <p>Linkedin.com/in/caio-paulino-bearari/</p>
+                            </div>
+                        </div>
+                    </a>
+                    <a href="https://github.com/Caio-P-B">
+                        <div class="contact-item">
+                            <div class="contact-icon">💻</div>
+                            <div>
+                                <h4>GitHub</h4>
+                                <p>github.com/Caio-P-B</p>
+                            </div>
+                        </div>
+                    </a>
+                    <a
+                        href="https://wa.me/5519999640005?text=Ol%C3%A1%20Caio%2C%20gostaria%20de%20saber%20mais%20sobre%20os%20seus%20servi%C3%A7os.">
+                        <div class="contact-item">
+                            <div class="contact-icon">📱</div>
+                            <div>
+                                <h4>WhatsApp</h4>
+                                <p>+55 (19) 99964-0005</p>
+                            </div>
+                        </div>
+                    </a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-logo">
+                    <a href="#" class="logo">Caio Bearari <span class="dev-tag">Dev</span></a>
+                    <p class="footer-tagline">Criando soluções digitais excepcionais</p>
+                </div>
+                <div class="footer-links">
+                    <h4>Links Rápidos</h4>
+                    <ul>
+                        <li><a href="#home">Home</a></li>
+                        <li><a href="#sobre">Sobre</a></li>
+                        <li><a href="#projetos">Projetos</a></li>
+                        <li><a href="#contato">Contato</a></li>
+                    </ul>
+                </div>
+                <div class="footer-social">
+                    <h4>Redes Sociais</h4>
+                    <div class="social-links">
+                        <a href="https://www.linkedin.com/in/caio-paulino-bearari/" class="social-link" title="LinkedIn">💼</a>
+                        <a href="https://github.com/Caio-P-B" class="social-link" title="GitHub">💻</a>
+                        <!-- <a href="#" class="social-link" title="Instagram">📷</a> -->
+                    </div>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p>&copy; 2024 Caio Bearari. Todos os direitos reservados.</p>
+            </div>
+        </div>
+    </footer>
+
+    <!-- Project Modal -->
+    <div class="modal" id="projectModal">
+        <div class="modal-content">
+            <button class="modal-close" id="modalClose">&times;</button>
+            <div class="modal-body" id="modalBody">
+                <!-- Content will be injected by JavaScript -->
+            </div>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+
+</html>
