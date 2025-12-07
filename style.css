@@ -1095,3 +1095,11 @@ body {
 }
 
 /* COMING SOON */
+
+.banner {
+  color: #f1f1f1;
+  background-color: #e08080;
+  border: 5px solid #ef4444;
+  font-size: 0.7em;
+  text-align: center;
+}
