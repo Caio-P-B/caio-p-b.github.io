@@ -240,7 +240,7 @@ const projectDetails = [
   {
     title: "TabNews Clone",
     image:
-      "https://images.unsplash.com/photo-1658297063569-162817482fb6?w=1200&q=80",
+      "https://unsplash.com/pt-br/fotografias/pessoa-segurando-iphone-preto-4-0aRycsfH57A",
     tags: ["React", "Node.js", "Next.js"],
     description: "Implementação do site TabNews.",
     features: [
